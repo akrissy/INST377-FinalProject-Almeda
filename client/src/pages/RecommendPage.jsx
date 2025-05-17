@@ -14,7 +14,7 @@ const RecommendPage = () => {
     const data = await res.json();
     setResults(data.results);
 
-    await fetch('http://localhost:3001/api/preferences', {
+    await fetch('https://gamematch-backend-sf08.onrender.com/api/preferences', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ userId, genres: [genre], platforms: [platform] })
