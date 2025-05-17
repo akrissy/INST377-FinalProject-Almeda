@@ -126,5 +126,5 @@ gamematch/
 ## Final Notes
 - All frontend code is in React + Tailwind CSS
 - Backend built with Express + Supabase
-- Deployed frontend to Vercel and backend to Railway
+- Deployed frontend to Vercel and backend to Render
 - Used RAWG, IGDB, Steam, and YouTube APIs
